@@ -1,0 +1,68 @@
+
+/* Alles ändern */
+* {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+
+/* Body Sachen ändern */
+body {
+    background-color: rgb(68, 68, 68);
+    font-family: Bahnschrift;
+    text-align: center;
+}
+
+
+/* Top */
+#top {
+    background-color: rgb(76, 78, 80);
+}
+
+
+/* Headline 1 */
+h1 {
+    color: rgb(97, 255, 92);
+    background-color: rgba(174, 255, 248, 0.37);
+    display: inline-block;
+    font-size: 40px;
+}
+
+h1:hover {
+    transition: all .2s ease-in;
+    font-size: 41px;
+    text-decoration: underline;
+    color: rgb(122, 247, 170);
+}
+
+
+h3:hover {
+    transition: all .2s ease-in;
+    color:rgb(64, 250, 141);
+}
+
+/* Headline 1 */
+h3 {
+    color: rgb(174, 255, 119);
+    font-size: 30px;
+}
+
+
+/* Navigator */
+#navi a {
+    font-size: 24px;
+    padding: 12px;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(149, 255, 100, 0.5);
+}
+
+#navi a:hover {
+    transition: all .2s ease-in;
+    text-decoration: underline;
+    color:rgb(0, 255, 0);
+}
+
+#navi b {
+    font-size: 20px;
+}
+
